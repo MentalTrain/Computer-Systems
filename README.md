@@ -1,14 +1,15 @@
 # Computer-Systems
-Computer Systems: A Programmer's Perspective, 3/E (CS:APP3e)  Randal E. Bryant and David R. O'Hallaron, Carnegie Mellon University
+
+Computer Systems: A Programmer's Perspective, 3/E (CS:APP3e) Randal E. Bryant and David R. O'Hallaron, Carnegie Mellon University
+
+http://csapp.cs.cmu.edu/3e/labs.html
 
 Lab Assignments
 
 Data Lab
-	
 Students implement simple logical, two's complement, and floating point functions, but using a highly restricted subset of C. For example, they might be asked to compute the absolute value of a number using only bit-level operations and straightline code. This lab helps students understand the bit-level representations of C data types and the bit-level behavior of the operations on data.
 
 Bomb Lab
-	
 A "binary bomb" is a program provided to students as an object code file. When run, it prompts the user to type in 6 different strings. If any of these is incorrect, the bomb "explodes," printing an error message and logging the event on a grading server. Students must "defuse" their own unique bomb by disassembling and reverse engineering the program to determine what the 6 strings should be. The lab teaches students to understand assembly language, and also forces them to learn how to use a debugger. It's also great fun. A legendary lab among the CMU undergrads.
 Here's a Linux/x86-64 binary bomb that you can try out for yourself. The feature that notifies the grading server has been disabled, so feel free to explode this bomb with impunity. If you're an instructor with a CS:APP account, then you can download the solution.
 
@@ -17,7 +18,7 @@ Attack Lab
 Note: This is the 64-bit successor to the 32-bit Buffer Lab. Students are given a pair of unique custom-generated x86-64 binary executables, called targets, that have buffer overflow bugs. One target is vulnerable to code injection attacks. The other is vulnerable to return-oriented programming attacks. Students are asked to modify the behavior of the targets by developing exploits based on either code injection or return-oriented programming. This lab teaches the students about the stack discipline and teaches them about the danger of writing code that is vulnerable to buffer overflow attacks.
 If you're a self-study student, here are a pair of Ubuntu 12.4 targets that you can try out for yourself. You'll need to run your targets using the "-q" option so that they don't try to contact a non-existent grading server. If you're an instructor with a CS:APP acount, you can download the solutions here.
 
-Buffer Lab 
+Buffer Lab
 
 Note: This is the legacy 32-bit lab from CS:APP2e. It has been replaced by the Attack Lab. In the Buffer Lab, students modify the run-time behavior of a 32-bit x86 binary executable by exploiting a buffer overflow bug. This lab teaches the students about the stack discipline and teaches them about the danger of writing code that is vulnerable to buffer overflow attacks.
 
